@@ -1,0 +1,25 @@
+.maintenance-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .maintenance-schedule {
+    padding: 2rem;
+  }
+  
+  .maintenance-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .maintenance-table th,
+  .maintenance-table td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .maintenance-table th {
+    background-color: #f8f9fa;
+  }

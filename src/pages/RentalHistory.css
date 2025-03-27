@@ -1,0 +1,25 @@
+.rental-history-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rental-history {
+    padding: 2rem;
+  }
+  
+  .rental-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .rental-table th,
+  .rental-table td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .rental-table th {
+    background-color: #f8f9fa;
+  }

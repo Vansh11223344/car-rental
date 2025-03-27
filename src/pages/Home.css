@@ -1,0 +1,253 @@
+.home {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    background: #f5f5f5;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+  }
+  
+  /* Search Section */
+  .search-section {
+    padding: 2rem;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 0 2rem;
+    border-radius: 8px;
+  }
+  
+  .search-container {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .search-section input {
+    flex: 1;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .search-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .search-btn:hover {
+    background: #0056b3;
+  }
+  
+  /* Car List */
+  .car-list {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .car-list h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .car-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .car-card {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .car-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .car-info {
+    background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.4));
+    width: 100%;
+    padding: 1.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .car-type {
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+  
+  .car-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .book-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background 0.3s;
+  }
+  
+  .book-btn:hover {
+    background: #218838;
+  }
+  
+  .book-btn:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  /* Booking Modal */
+  .booking-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .modal-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .confirm-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .confirm-btn:hover {
+    background: #0056b3;
+  }
+  
+  .cancel-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cancel-btn:hover {
+    background: #c82333;
+  }
+  
+  /* Chat Toggle */
+  .chat-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  .chat-toggle:hover {
+    background: #0056b3;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: auto;
+    padding: 2rem;
+    background: #333;
+    color: white;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5rem;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
